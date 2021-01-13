@@ -1,0 +1,19 @@
+{
+  "name": "web-scrapping",
+  "version": "1.0.0",
+  "description": "testing puppeteer library",
+  "main": "index.js",
+  "author": "Nathan Vieira <nathan.v.marcelino@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "scraping": "node index.js",
+    "server": "lite-server index.html",
+    "start": "yarn scraping && yarn server"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "lite-server": "^2.6.1",
+    "puppeteer": "^5.5.0"
+  }
+}
